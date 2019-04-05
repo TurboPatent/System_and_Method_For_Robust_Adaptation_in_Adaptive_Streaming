@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="637.9" height="399.1" viewBox="33.9 93.2 637.9 399.1"><g><g transform="translate(84,156)"><g><g>
+<path d="M502,0H0v243h502V0L502,0z" stroke="#000000" stroke-dasharray="none" fill="#FFFFFF"/>
+<rect x="22" y="11.1" width="458.1" height="220.8" fill="none"/>
+<circle fill="none" cx="251" cy="0" r="0.1"/>
+<circle fill="none" cx="375.4" cy="0" r="0.1"/>
+<circle fill="none" cx="502" cy="61.3" r="0.1"/>
+<circle fill="none" cx="502" cy="121.5" r="0.1"/>
+<circle fill="none" cx="502" cy="181.7" r="0.1"/>
+<circle fill="none" cx="375.4" cy="243" r="0.1"/>
+<circle fill="none" cx="251" cy="243" r="0.1"/>
+<circle fill="none" cx="126.6" cy="243" r="0.1"/>
+<circle fill="none" cx="0" cy="181.7" r="0.1"/>
+<circle fill="none" cx="0" cy="121.5" r="0.1"/>
+<circle fill="none" cx="0" cy="61.3" r="0.1"/>
+<circle fill="none" cx="126.6" cy="0" r="0.1"/>
+</g></g><rect stroke="none" stroke-width="1" fill="#FFFFFF" x="0" y="0" width="40" height="20" transform="translate(385.3,-62.1)"/><path stroke="#000000" fill="none" d="M375.4,0 C403.5,-7.6 371.5,-34.5 399.6 -42.1"/><text font-family="OpenSansCondensedLight" font-size="14pt" fill="black" transform="translate(385.3,-62.1)" text-anchor="middle"><tspan x="20" y="16.3">112</tspan></text><rect stroke-width="0" fill="none" width="458.1" height="220.8" transform="translate(22,11.1)"/><text font-family="OpenSansCondensedLight" font-size="14pt" fill="black" transform="translate(22,11.1)" text-anchor="middle"><tspan x="229.1" y="16.8">HAS CLIENT(S)</tspan></text><path stroke="#000000" fill="none" transform="translate(22,11.1)" d="M 0 0"/></g><g transform="translate(114,199)"><g><g>
+<path d="M162,0H0v39h162V0L162,0z" stroke="#000000" stroke-dasharray="none" fill="#FFFFFF"/>
+<rect x="7.1" y="1.8" width="147.8" height="35.4" fill="none"/>
+<circle fill="none" cx="81" cy="0" r="0.1"/>
+<circle fill="none" cx="121.1" cy="0" r="0.1"/>
+<circle fill="none" cx="162" cy="9.8" r="0.1"/>
+<circle fill="none" cx="162" cy="19.5" r="0.1"/>
+<circle fill="none" cx="162" cy="29.2" r="0.1"/>
+<circle fill="none" cx="121.1" cy="39" r="0.1"/>
+<circle fill="none" cx="81" cy="39" r="0.1"/>
+<circle fill="none" cx="40.9" cy="39" r="0.1"/>
+<circle fill="none" cx="0" cy="29.2" r="0.1"/>
+<circle fill="none" cx="0" cy="19.5" r="0.1"/>
+<circle fill="none" cx="0" cy="9.8" r="0.1"/>
+<circle fill="none" cx="40.9" cy="0" r="0.1"/>
+</g></g><rect stroke="none" stroke-width="1" fill="#FFFFFF" x="0" y="0" width="40" height="20" transform="translate(-80.1,9.4)"/><path stroke="#000000" fill="none" d="M0,19.5 C-17,2.5 -23.1,36.5 -40.1 19.4"/><text font-family="OpenSansCondensedLight" font-size="14pt" fill="black" transform="translate(-80.1,9.4)" text-anchor="middle"><tspan x="20" y="16.3">302</tspan></text><rect stroke-width="0" fill="none" width="147.8" height="35.4" transform="translate(7.1,1.8)"/><text font-family="OpenSansCondensedLight" font-size="14pt" fill="black" transform="translate(7.1,1.8)" text-anchor="middle"><tspan x="73.9" y="24">BUFFER</tspan></text><path stroke="#000000" fill="none" transform="translate(7.1,1.8)" d="M 0 0"/></g><g transform="translate(114,257)"><g><g>
+<path d="M162,0H0v39h162V0L162,0z" stroke="#000000" stroke-dasharray="none" fill="#FFFFFF"/>
+<rect x="7.1" y="1.8" width="147.8" height="35.4" fill="none"/>
+<circle fill="none" cx="81" cy="0" r="0.1"/>
+<circle fill="none" cx="121.1" cy="0" r="0.1"/>
+<circle fill="none" cx="162" cy="9.8" r="0.1"/>
+<circle fill="none" cx="162" cy="19.5" r="0.1"/>
+<circle fill="none" cx="162" cy="29.2" r="0.1"/>
+<circle fill="none" cx="121.1" cy="39" r="0.1"/>
+<circle fill="none" cx="81" cy="39" r="0.1"/>
+<circle fill="none" cx="40.9" cy="39" r="0.1"/>
+<circle fill="none" cx="0" cy="29.2" r="0.1"/>
+<circle fill="none" cx="0" cy="19.5" r="0.1"/>
+<circle fill="none" cx="0" cy="9.8" r="0.1"/>
+<circle fill="none" cx="40.9" cy="0" r="0.1"/>
+</g></g><rect stroke="none" stroke-width="1" fill="#FFFFFF" x="0" y="0" width="40" height="20" transform="translate(-80.1,9.4)"/><path stroke="#000000" fill="none" d="M0,19.5 C-17,2.5 -23.1,36.5 -40.1 19.4"/><text font-family="OpenSansCondensedLight" font-size="14pt" fill="black" transform="translate(-80.1,9.4)" text-anchor="middle"><tspan x="20" y="16.3">304</tspan></text><rect stroke-width="0" fill="none" width="147.8" height="35.4" transform="translate(7.1,1.8)"/><text font-family="OpenSansCondensedLight" font-size="14pt" fill="black" transform="translate(7.1,1.8)" text-anchor="middle"><tspan x="73.9" y="24">PROCESSOR</tspan></text><path stroke="#000000" fill="none" transform="translate(7.1,1.8)" d="M 0 0"/></g><g transform="translate(115,319)"><g><g>
+<path d="M162,0H0v39h162V0L162,0z" stroke="#000000" stroke-dasharray="none" fill="#FFFFFF"/>
+<rect x="7.1" y="1.8" width="147.8" height="35.4" fill="none"/>
+<circle fill="none" cx="81" cy="0" r="0.1"/>
+<circle fill="none" cx="121.1" cy="0" r="0.1"/>
+<circle fill="none" cx="162" cy="9.8" r="0.1"/>
+<circle fill="none" cx="162" cy="19.5" r="0.1"/>
+<circle fill="none" cx="162" cy="29.2" r="0.1"/>
+<circle fill="none" cx="121.1" cy="39" r="0.1"/>
+<circle fill="none" cx="81" cy="39" r="0.1"/>
+<circle fill="none" cx="40.9" cy="39" r="0.1"/>
+<circle fill="none" cx="0" cy="29.2" r="0.1"/>
+<circle fill="none" cx="0" cy="19.5" r="0.1"/>
+<circle fill="none" cx="0" cy="9.8" r="0.1"/>
+<circle fill="none" cx="40.9" cy="0" r="0.1"/>
+</g></g><rect stroke="none" stroke-width="1" fill="#FFFFFF" x="0" y="0" width="40" height="20" transform="translate(-80.1,9.4)"/><path stroke="#000000" fill="none" d="M0,19.5 C-17,2.5 -23.1,36.5 -40.1 19.4"/><text font-family="OpenSansCondensedLight" font-size="14pt" fill="black" transform="translate(-80.1,9.4)" text-anchor="middle"><tspan x="20" y="16.3">306</tspan></text><rect stroke-width="0" fill="none" width="147.8" height="35.4" transform="translate(7.1,1.8)"/><text font-family="OpenSansCondensedLight" font-size="14pt" fill="black" transform="translate(7.1,1.8)" text-anchor="middle"><tspan x="73.9" y="24">MEMORY</tspan></text><path stroke="#000000" fill="none" transform="translate(7.1,1.8)" d="M 0 0"/></g><g transform="translate(360,197)"><g><g>
+<path d="M197,0H0v64h197V0L197,0z" stroke="#000000" stroke-dasharray="none" fill="#FFFFFF"/>
+<rect x="8.6" y="2.9" width="179.8" height="58.2" fill="none"/>
+<circle fill="none" cx="98.5" cy="0" r="0.1"/>
+<circle fill="none" cx="147.3" cy="0" r="0.1"/>
+<circle fill="none" cx="197" cy="16.1" r="0.1"/>
+<circle fill="none" cx="197" cy="32" r="0.1"/>
+<circle fill="none" cx="197" cy="47.9" r="0.1"/>
+<circle fill="none" cx="147.3" cy="64" r="0.1"/>
+<circle fill="none" cx="98.5" cy="64" r="0.1"/>
+<circle fill="none" cx="49.7" cy="64" r="0.1"/>
+<circle fill="none" cx="0" cy="47.9" r="0.1"/>
+<circle fill="none" cx="0" cy="32" r="0.1"/>
+<circle fill="none" cx="0" cy="16.1" r="0.1"/>
+<circle fill="none" cx="49.7" cy="0" r="0.1"/>
+</g></g><rect stroke="none" stroke-width="1" fill="#FFFFFF" x="0" y="0" width="40" height="20" transform="translate(236.9,21.9)"/><path stroke="#000000" fill="none" d="M197,32 C214,48.9 219.9,15 236.9 31.9"/><text font-family="OpenSansCondensedLight" font-size="14pt" fill="black" transform="translate(236.9,21.9)" text-anchor="middle"><tspan x="20" y="16.3">308</tspan></text><rect stroke-width="0" fill="none" width="179.8" height="58.2" transform="translate(8.6,2.9)"/><text font-family="OpenSansCondensedLight" font-size="14pt" fill="black" transform="translate(8.6,2.9)" text-anchor="middle"><tspan x="89.9" y="35.4">RATE CONTROL FUNCTION</tspan></text><path stroke="#000000" fill="none" transform="translate(8.6,2.9)" d="M 0 0"/></g><g transform="translate(361,288)"><g><g>
+<path d="M197,0H0v64h197V0L197,0z" stroke="#000000" stroke-dasharray="none" fill="#FFFFFF"/>
+<rect x="8.6" y="2.9" width="179.8" height="58.2" fill="none"/>
+<circle fill="none" cx="98.5" cy="0" r="0.1"/>
+<circle fill="none" cx="147.3" cy="0" r="0.1"/>
+<circle fill="none" cx="197" cy="16.1" r="0.1"/>
+<circle fill="none" cx="197" cy="32" r="0.1"/>
+<circle fill="none" cx="197" cy="47.9" r="0.1"/>
+<circle fill="none" cx="147.3" cy="64" r="0.1"/>
+<circle fill="none" cx="98.5" cy="64" r="0.1"/>
+<circle fill="none" cx="49.7" cy="64" r="0.1"/>
+<circle fill="none" cx="0" cy="47.9" r="0.1"/>
+<circle fill="none" cx="0" cy="32" r="0.1"/>
+<circle fill="none" cx="0" cy="16.1" r="0.1"/>
+<circle fill="none" cx="49.7" cy="0" r="0.1"/>
+</g></g><rect stroke="none" stroke-width="1" fill="#FFFFFF" x="0" y="0" width="40" height="20" transform="translate(236.9,21.9)"/><path stroke="#000000" fill="none" d="M197,32 C214,48.9 219.9,15 236.9 31.9"/><text font-family="OpenSansCondensedLight" font-size="14pt" fill="black" transform="translate(236.9,21.9)" text-anchor="middle"><tspan x="20" y="16.3">310</tspan></text><rect stroke-width="0" fill="none" width="179.8" height="58.2" transform="translate(8.6,2.9)"/><text font-family="OpenSansCondensedLight" font-size="14pt" fill="black" transform="translate(8.6,2.9)" text-anchor="middle"><tspan x="89.9" y="35.4">TARGET DELAY CONTOLLER</tspan></text><path stroke="#000000" fill="none" transform="translate(8.6,2.9)" d="M 0 0"/></g></g><defs/></svg>

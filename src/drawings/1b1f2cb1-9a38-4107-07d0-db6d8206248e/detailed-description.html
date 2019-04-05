@@ -1,0 +1,289 @@
+<p>Turning to 
+  <span data-role="tag" data-value="1b1f2cb1-9a38-4107-07d0-db6d8206248e" id="idb2197499-d336-4e94-12a9-e5deb8f14938" data-type="figure">Figure 1</span>, 
+  <span data-role="tag" data-value="1b1f2cb1-9a38-4107-07d0-db6d8206248e" id="ide28e780a-06c8-5e2e-cd06-bfd76034d4be" data-type="figure">Figure 1</span> is a 
+  <span data-role="tag" data-value="1dbce22f-984b-c862-6e2b-c7455b4c967d" id="id48e9ddda-4ddc-e107-aa54-9633e885e7bc" data-type="term">simplified block diagram</span> of a 
+  <span data-role="tag" data-value="4b09bf94-0ed6-b86a-b419-85f1e2aece55" id="id5a7bc86c-cfeb-922a-b398-2ddbbdf58129" data-type="drawingObject">communication system 100</span> configured for providing 
+  <span data-role="tag" data-value="9b6478ce-06c5-4bfc-3515-86129d9ab365" id="ida53de9e2-20a7-2ff8-d013-9a74196d8119" data-type="term">rate adaptation</span> for a 
+  <span data-role="tag" data-value="679dee3b-1b9a-415f-c427-4e17f5a35663" id="id7cc07480-fbee-b848-6b8f-ad6405067816" data-type="term">plurality</span> of 
+  <span data-role="tag" data-value="57fdc509-a8b2-c9af-2e96-dedd096f149a" id="id8fdc1546-0783-4c05-6851-bea4a1e402ec" data-type="term">HAS client(s)</span> in accordance with 
+  <span data-role="tag" data-value="bd3e03d0-3570-09eb-627c-996c6afb9a7d" id="id6f409ce7-0e2d-4de0-9cb4-b82710144725" data-type="term">one embodiment</span> of the 
+  <span data-role="tag" data-value="f64afe8d-e48b-1fca-8efe-e6adce8da1df" id="id2fd5fc25-2a5f-8636-ffef-8bdf300d6309" data-type="term">present disclosure</span>. 
+  <span data-role="tag" data-value="4b09bf94-0ed6-b86a-b419-85f1e2aece55" id="idc926b10f-be6a-dba9-5150-b0d7fc65308e" data-type="drawingObject">Communication system 100</span> may include a 
+  <span data-role="tag" data-value="679dee3b-1b9a-415f-c427-4e17f5a35663" id="iddb9eeb0b-658e-c522-1708-8e5dc2a6dec3" data-type="term">plurality</span> of 
+  <span data-role="tag" data-value="b400f1fc-e4ec-ed8d-8d89-54068a7f6255" id="idcdb1b257-3ab1-c977-a8eb-59b63f377447" data-type="drawingObject">servers 102</span>, a 
+  <span data-role="tag" data-value="8292aa41-0ece-c215-7c0e-f3123b0881fb" id="id6003bb27-2c46-b42e-241f-9464daa0a62e" data-type="drawingObject">media storage 106</span>, a 
+  <span data-role="tag" data-value="0068fbf5-7e1b-165f-5698-7a7bd9338d94" id="ida8b71d52-e2c0-cd64-10da-f95d17a76392" data-type="drawingObject">network 108</span>, a 
+  <span data-role="tag" data-value="160484cf-ab55-085e-dbaa-7385c5f7f009" id="id2ab293da-2e63-ffcc-782b-6e6889c73e83" data-type="drawingObject">transcoder 104</span>, a 
+  <span data-role="tag" data-value="679dee3b-1b9a-415f-c427-4e17f5a35663" id="id0134c0bb-bcef-e350-9ee8-a35d8ad83ef7" data-type="term">plurality</span> of 
+  <span data-role="tag" data-value="c92b902b-7cd0-b569-9208-70cd69cf005a" id="id3e4b2d67-cb2c-28d2-d940-64054f60dcdc" data-type="drawingObject">HAS client(s) 112</span>, and a 
+  <span data-role="tag" data-value="679dee3b-1b9a-415f-c427-4e17f5a35663" id="id74b4724b-084b-568e-d180-cac8c1054abb" data-type="term">plurality</span> of 
+  <span data-role="tag" data-value="bcbc1371-5a1d-053c-e50b-6e2e53b1393f" id="idf17c17d1-2052-e962-6ee4-70fa5c5ddb78" data-type="drawingObject">intermediate nodes 110</span>. Note that the 
+  <span data-role="tag" data-value="010b5c7a-62da-b610-29c1-3494a0c74b41" id="iddbacb55c-28d0-c1d8-ef17-0606e4a6e068" data-type="term">originating video source</span> may be a 
+  <span data-role="tag" data-value="b2cf060c-192d-bc9d-4575-e39d13184744" id="id5e1327a4-dc4f-f886-8db9-9e0e5f64a537" data-type="term">transcoder</span> that takes a 
+  <span data-role="tag" data-value="a3fac8c3-29fe-a102-837b-cc7fe64a20e5" id="idf071d851-7704-bee2-4b7a-3b4512499c10" data-type="term">single encoded source</span> and "transcodes" it into 
+  <span data-role="tag" data-value="fd7c67a5-509e-a27e-d2ba-3209d9d20775" id="id54313c4d-f80b-3f4a-3999-55772c3946fb" data-type="term">multiple rates</span>, or it could be a "Primary" encoder that takes an 
+  <span data-role="tag" data-value="918da658-fc8d-0a60-7365-f8a3f924c017" id="id7ebe916c-4afb-4904-a977-0c2d32ab9791" data-type="term">original non-encoded video source</span> and directly produces the 
+  <span data-role="tag" data-value="fd7c67a5-509e-a27e-d2ba-3209d9d20775" id="id8cf85bfe-af03-d307-4a69-c3b9f250d880" data-type="term">multiple rates</span>. Therefore, it should be understood that 
+  <span data-role="tag" data-value="160484cf-ab55-085e-dbaa-7385c5f7f009" id="id95aa5ecd-49db-f917-9ccd-ee27912f43b7" data-type="drawingObject">transcoder 104</span> is representative of any 
+  <span data-role="tag" data-value="39f27186-4ac9-00da-4ecb-5cdfceda46f3" id="id37cc52b7-c91e-2bfa-35a7-a49267c739a2" data-type="term">type</span> of 
+  <span data-role="tag" data-value="d0757dc6-b3b0-7eed-779b-5e567f27af75" id="ide2545847-e63d-61e8-1c7d-bc7a4b62b880" data-type="term">multi-rate encoder</span>, 
+  <span data-role="tag" data-value="b2cf060c-192d-bc9d-4575-e39d13184744" id="id92898276-c45c-d2ea-c3e7-27592333c1ef" data-type="term">transcoder</span>, etc.&nbsp;
+</p>
+<p></p>
+<p>
+  <span data-role="tag" data-value="b400f1fc-e4ec-ed8d-8d89-54068a7f6255" id="id16a3e3a6-38cc-2fa0-1770-c43b4ce34383" data-type="drawingObject">Servers 102</span> are configured to deliver 
+  <span data-role="tag" data-value="16d7b532-aa39-8833-e83a-d293a7f0a00d" id="idbb99d3ec-d82b-f6e3-59ca-689c23c43723" data-type="term">requested content</span> to 
+  <span data-role="tag" data-value="57fdc509-a8b2-c9af-2e96-dedd096f149a" id="id540fa9bd-ba37-a07f-70f0-22ae12189d0b" data-type="term">HAS client(s)</span> 112-c. The 
+  <span data-role="tag" data-value="3e1700ce-f64d-6879-c32a-cc8371f92329" id="id0e3c235b-4770-b091-ec65-45f4a25a9ee1" data-type="term">content</span> may include any 
+  <span data-role="tag" data-value="91a79055-ddb6-658e-eb6d-aa698dcd4957" id="id1b1f7828-0651-7109-df24-10f979d76539" data-type="term">suitable information and/or data</span> that can propagate in the 
+  <span data-role="tag" data-value="f184cf91-ecb1-be9a-8896-8440f59eb802" id="ide25279fb-69f1-d88b-d48b-0b9f437dbd73" data-type="term">network</span> (e.g., 
+  <span data-role="tag" data-value="22c6ef88-05b4-ceed-50fb-46fe75709358" id="idee56620e-efb9-e2d6-7676-e0bec41d1fb2" data-type="term">video</span>, audio, media, any 
+  <span data-role="tag" data-value="39f27186-4ac9-00da-4ecb-5cdfceda46f3" id="id83b004dc-870a-ecfb-2612-85149ac1b4d3" data-type="term">type</span> of 
+  <span data-role="tag" data-value="8fc1957c-2200-e8ae-273c-6634bbe11ccd" id="id500cb35c-13cb-3f10-097c-9a13651a735f" data-type="term">streaming information</span>, etc.). 
+  <span data-role="tag" data-value="bfc974d0-5146-90b0-830e-eba933ff73ec" id="ida5bedd04-a7c4-8148-b4f0-5e0dd6f10836" data-type="term">certain content</span> may be stored in 
+  <span data-role="tag" data-value="8292aa41-0ece-c215-7c0e-f3123b0881fb" id="id6222bb01-24da-5426-7fd8-fd5c06825ea6" data-type="drawingObject">media storage 106</span>, which can be located anywhere in the 
+  <span data-role="tag" data-value="f184cf91-ecb1-be9a-8896-8440f59eb802" id="id4d070098-efd5-e85e-a4d7-0ed2599ec998" data-type="term">network</span>. 
+  <span data-role="tag" data-value="8292aa41-0ece-c215-7c0e-f3123b0881fb" id="id0bea6c40-fde8-2acd-34c1-558774520f80" data-type="drawingObject">Media storage 106</span> may be a 
+  <span data-role="tag" data-value="99ef0370-02e3-2c74-1584-4b97f9696539" id="id92ba4caa-ca24-4b93-c014-3268c28b81ea" data-type="term">part</span> of any 
+  <span data-role="tag" data-value="043d5542-f149-e563-e8d9-84bc7b4899bf" id="idd0389a7b-aac0-b452-c63c-4c2f40290513" data-type="term">web server</span>, logically connected to one of 
+  <span data-role="tag" data-value="b400f1fc-e4ec-ed8d-8d89-54068a7f6255" id="id30b1789b-0255-8dd9-f8e1-845cf972beaf" data-type="drawingObject">servers 102</span>, suitably accessed using 
+  <span data-role="tag" data-value="0068fbf5-7e1b-165f-5698-7a7bd9338d94" id="id0d47c97e-21ce-2d52-43c5-ff3224daab35" data-type="drawingObject">network 108</span>, etc. In general, 
+  <span data-role="tag" data-value="4b09bf94-0ed6-b86a-b419-85f1e2aece55" id="id528bb1b2-ce47-32c4-af94-7e78e38ac8e7" data-type="drawingObject">communication system 100</span> can be configured to provide 
+  <span data-role="tag" data-value="94308523-d114-9b90-e1f7-55a53126959e" id="id5afefca0-a54f-2f72-fadf-fea9a5682397" data-type="term">downloading</span> and 
+  <span data-role="tag" data-value="22cdc6b5-29be-632b-4bb4-ad05f118e269" id="idd4ef0f6f-0a15-4256-835e-97310abdb727" data-type="term">streaming capabilities</span> associated with 
+  <span data-role="tag" data-value="7c93028a-5977-db96-70e7-60158b7fd807" id="id78f9e2c7-92fa-eef1-8743-17d09b96dfec" data-type="term">various data services</span>. 
+  <span data-role="tag" data-value="4b09bf94-0ed6-b86a-b419-85f1e2aece55" id="id7866ea7a-31e2-f736-efe6-4aaf36b4fce4" data-type="drawingObject">Communication system 100</span> can also offer the ability to manage 
+  <span data-role="tag" data-value="3e1700ce-f64d-6879-c32a-cc8371f92329" id="id0e463b63-9345-7540-86b3-f46834879570" data-type="term">content</span> for 
+  <span data-role="tag" data-value="13fb8dd9-58c1-4540-9037-6e2f1f27f6cf" id="id6aa6b6d9-7256-f5cb-a6e8-d96e5feb063d" data-type="term">mixed-media offerings</span>, which may combine 
+  <span data-role="tag" data-value="22c6ef88-05b4-ceed-50fb-46fe75709358" id="id5cd0a79c-3267-3a4f-d1ac-fce05f31807e" data-type="term">video</span>, 
+  <span data-role="tag" data-value="c3361ea8-84f4-d8ce-b213-e0ea371a8c89" id="idec638c4f-b86b-f95d-28e0-1bf39fc1d965" data-type="term">audio, games, applications, channels</span>, and 
+  <span data-role="tag" data-value="c158eb0a-f62b-7590-6054-3eea330ac8e4" id="id76dc7516-a45d-8a7f-8041-6cc06f3348a1" data-type="term">programs</span> into 
+  <span data-role="tag" data-value="e417f604-9b11-2cdd-4429-1ed0aafbc06d" id="id5d6cdd2e-f62f-ac2d-d89d-b301460b2e90" data-type="term">digital media bundles</span>.&nbsp;
+</p>
+<p></p>
+<p>In accordance with the 
+  <span data-role="tag" data-value="9200dda5-d63d-40a3-368f-3e46752ecf9b" id="id54d1dc0b-30a5-5593-3a8f-7c2e4a41b522" data-type="term">techniques</span> of the 
+  <span data-role="tag" data-value="f64afe8d-e48b-1fca-8efe-e6adce8da1df" id="id747b8cb7-bceb-cc03-cbbc-d83b9bbe830c" data-type="term">present disclosure</span>, the 
+  <span data-role="tag" data-value="882082d3-77de-26f0-9160-a57d1c55f8f1" id="id2f6af0f0-05cc-07bc-7c8e-d8470abf0fa6" data-type="term">architecture</span> of 
+  <span data-role="tag" data-value="1b1f2cb1-9a38-4107-07d0-db6d8206248e" id="id0929a779-6c8e-7f24-a6f1-91580957250c" data-type="figure">Figure 1</span> can provide a 
+  <span data-role="tag" data-value="3572717a-1ccb-7606-1971-12368c262c7f" id="id8e6520e3-2644-acce-8430-055ec312dedd" data-type="term">new rate adaptation framework</span> that includes 
+  <span data-role="tag" data-value="62c9bccb-37e4-c7ed-d92c-8067345c3f06" id="id3a897982-de83-4921-c80a-258b5593ea26" data-type="term">several significant mechanisms</span>. First, the 
+  <span data-role="tag" data-value="882082d3-77de-26f0-9160-a57d1c55f8f1" id="id47392f8c-f989-a8fd-b5c8-37e3f5ac95f9" data-type="term">architecture</span> can use an 
+  <span data-role="tag" data-value="1028e603-4ed6-1169-8e93-8118ea2537f3" id="id9e2318de-31ed-54fd-fcca-c312ab8688b9" data-type="term">algorithm</span> to adjust a 
+  <span data-role="tag" data-value="dc3341fc-1bd8-3708-083f-b99ebc097614" id="id29003dea-0170-ad22-1db0-59f30af039c1" data-type="term">flow's</span>
+  <span data-role="tag" data-value="c411c596-8622-1888-1a0a-9d1babd36d7b" id="ida1f93f3e-315f-c1d9-f0a9-dff13d8ab173" data-type="term">average throughput</span> to match the 
+  <span data-role="tag" data-value="bf5e4a38-9963-4edf-1115-2f055955e70e" id="idd99a418e-54db-be3c-5808-b82202238a85" data-type="term">available bandwidth</span>. Second, the 
+  <span data-role="tag" data-value="882082d3-77de-26f0-9160-a57d1c55f8f1" id="id9c8611ef-557f-c722-0e60-fa5f06ebf947" data-type="term">architecture</span> can fine-tune the 
+  <span data-role="tag" data-value="6208efbe-47bf-d787-7e3d-e5fc2ae203d4" id="id9452dd04-6809-fe94-2a92-2a6a1abcdb00" data-type="term">intervals</span> between 
+  <span data-role="tag" data-value="bd573f6f-b4fb-d243-6493-b95d812425a8" id="id76e79d0e-9357-b9f6-8ea7-a45fbe79337e" data-type="term">consecutive segment downloads</span>. Additionally, the 
+  <span data-role="tag" data-value="59befcec-8e1f-fcda-2aea-ee7c556e9cbd" id="id48eab2d1-51d3-35d3-5105-ac20cf7b92e4" data-type="term">framework</span> can offer an 
+  <span data-role="tag" data-value="3c77151d-be5b-8caf-0d29-411dbf56c5aa" id="id8b43caac-4a6e-4d3a-7d86-9f15fa53f8cf" data-type="term">enhancement</span> (via a 
+  <span data-role="tag" data-value="ff68cbb6-c5bc-e744-7252-d88ed54d9e3b" id="id521933b8-3615-d49b-57be-7c3b9a803ebb" data-type="term">new time discount addition</span>) to an 
+  <span data-role="tag" data-value="34f3f7bb-ef70-bc69-a3ee-3ec9be19ebe0" id="idf08b8ab1-ae53-d719-2544-1e94f8f2673b" data-type="term">additive-increase/multiplicative-decrease</span> (
+  <span data-role="tag" data-value="d7f81cc8-67e6-42f2-c1f3-19e39477d442" id="id73dd49b0-207c-0827-75db-8afc1e33b2a8" data-type="term">AIMD</span>) 
+  <span data-role="tag" data-value="8204c248-c893-9913-8751-6c7c55f319d4" id="idc34727a8-3470-c190-3dd8-a017f12a5f02" data-type="term">equation</span>, as 
+  <span data-role="tag" data-value="f8787698-13c3-584d-6182-32a016e586d0" id="id150e8208-f736-cb07-638b-bed15b3e87c3" data-type="term">detailed below</span>. It can also make use of the 
+  <span data-role="tag" data-value="8b4d8a8b-3b3b-96c2-c4e0-a29f3e526fd1" id="id575caef1-3fed-9a05-9035-c395dd28ef5a" data-type="term">fine-tuned interval</span> between 
+  <span data-role="tag" data-value="bd573f6f-b4fb-d243-6493-b95d812425a8" id="id084352be-52ea-a37a-8d94-9e3cff111e22" data-type="term">consecutive segment downloads</span>, where the 
+  <span data-role="tag" data-value="9b6478ce-06c5-4bfc-3515-86129d9ab365" id="id52f4383c-6fd3-3077-55bf-dc31b1b54822" data-type="term">rate adaptation</span> achieves 
+  <span data-role="tag" data-value="b2d3b0b2-6bea-f6f1-eefd-5664039c7b77" id="id02cb218d-fb76-d37f-da9e-0b0d42154fa7" data-type="term">weighted bandwidth sharing</span> regardless of the 
+  <span data-role="tag" data-value="e0ab0d3f-3e2a-85c7-0a49-3d59edce60e4" id="id36c5d10d-a317-1cda-07d8-fe9d829199fe" data-type="term">underlying transport protocol's</span> (e.g., TCP, 
+  <span data-role="tag" data-value="fa347480-bf7b-e077-480d-676b9a471363" id="idf6b6cddd-131b-aefe-059f-42f19ca1a9be" data-type="term">SCTP</span>, MP-TCP, etc.) 
+  <span data-role="tag" data-value="cf6905ef-8d75-3267-c054-25ef65cb7e76" id="idf27205d8-ae13-62e8-11f4-b5ca550d922b" data-type="term">Behavior</span>.&nbsp;
+</p>
+<p></p>
+<p>In 
+  <span data-role="tag" data-value="2a8e12b3-2230-81fc-dcd2-c03f4015a69a" id="id82359418-a42d-1673-870d-883f74febf55" data-type="term">certain example embodiments</span>, the 
+  <span data-role="tag" data-value="c14dd5a4-a3a1-391e-4fa4-7464f89d8df7" id="idee39dde9-dfa7-7c4c-89b8-4d1128f75191" data-type="term">proposed rate adaptation algorithm</span> can effectively mitigate the 
+  <span data-role="tag" data-value="a3805b9f-6e8d-2b1b-bc0c-c2e03c73796e" id="id027ff13d-6c72-63d4-0766-6a7c5281bb0d" data-type="term">frequent rate shifts</span> (e.g., 
+  <span data-role="tag" data-value="f7d531d6-8225-84a1-145b-1e6e93e95089" id="id26541b31-455a-4255-b5cc-89d842b71244" data-type="term">rate oscillation</span>) problems commonly experienced by typical 
+  <span data-role="tag" data-value="57fdc509-a8b2-c9af-2e96-dedd096f149a" id="id585f11f1-b4d0-2b40-50f4-72dbe6ad9f2d" data-type="term">HAS client(s)</span>, especially when 
+  <span data-role="tag" data-value="d2bead99-c126-c951-3c58-7f641c5c3521" id="idbff12971-b915-095e-aa2a-fab0d4e80683" data-type="term">multiple</span>
+  <span data-role="tag" data-value="57fdc509-a8b2-c9af-2e96-dedd096f149a" id="idede58fb3-7f29-7b9f-056f-d6ec13177f40" data-type="term">HAS client(s)</span> compete for 
+  <span data-role="tag" data-value="6b422266-8790-adc3-9ea5-497ea6b584cd" id="ide4c36c47-d07e-e8d0-69be-e7f2ec78fc39" data-type="term">bandwidth</span> at one or more 
+  <span data-role="tag" data-value="7ce853b8-8941-6420-f3af-805652d1b751" id="ided109bbd-6afe-2da5-dab4-03edcf77e132" data-type="term">network bottleneck links</span>. Typical 
+  <span data-role="tag" data-value="57fdc509-a8b2-c9af-2e96-dedd096f149a" id="id8a1177c0-8615-bd43-08aa-c00489d5a1b0" data-type="term">HAS client(s)</span> simply rely on the 
+  <span data-role="tag" data-value="c9dde22c-7b1c-ceeb-d137-3713062a0324" id="id0ad713b8-7f95-5154-3a2d-9ada01f9e8fd" data-type="term">underlying TCP's</span>
+  <span data-role="tag" data-value="3bdfc677-d9e4-a923-3786-6e3463665d09" id="idbf76f936-5fb8-9a34-f5c5-5fd2c7bfe56e" data-type="term">bandwidth sharing behavior</span> to choose a 
+  <span data-role="tag" data-value="1825bbfe-c486-ba08-6586-6115810a4d9d" id="idfccd313f-2e40-1957-9668-24c5250d147c" data-type="term">bitrate</span>. By 
+  <span data-role="tag" data-value="af71ab5c-f25f-8d4b-18e1-8cead464e9f6" id="id69aa44f5-547c-2237-677f-a5fcc60ee92b" data-type="term">contrast</span>, the 
+  <span data-role="tag" data-value="59befcec-8e1f-fcda-2aea-ee7c556e9cbd" id="id132c1a0c-a68f-e4f7-a702-bc1bd05b7b9d" data-type="term">framework</span> discussed herein is able to decouple the 
+  <span data-role="tag" data-value="115b631e-b274-be1e-e754-e2ea9c65ef4a" id="idd783e521-8640-2f80-bc00-f0e84389e712" data-type="term">bitrate selection</span> from 
+  <span data-role="tag" data-value="b292f471-5525-411e-b3f9-70ed831458b3" id="id10b85432-faf3-6bab-17e8-2d40da638c22" data-type="term">its underlying TCP's</span>
+  <span data-role="tag" data-value="3bdfc677-d9e4-a923-3786-6e3463665d09" id="idf4e5a9a2-b821-10b7-24f9-a81f82bdd840" data-type="term">bandwidth sharing behavior</span>. Many existing 
+  <span data-role="tag" data-value="57fdc509-a8b2-c9af-2e96-dedd096f149a" id="idcc4c194b-d84a-bdf4-5051-9ef116d4606b" data-type="term">HAS client(s)</span> implement a 
+  <span data-role="tag" data-value="8be3b247-eb25-8d2e-5e7f-56f7a5a5e2bd" id="id1e16af8e-fe89-c6d2-0bb3-309b5cd82279" data-type="term">symmetric rate upshift/downshift</span>. 
+  <span data-role="tag" data-value="830a5f9b-85cc-0e61-bceb-d0f2be1867db" id="idf2555d69-f865-76e0-fbd3-5ac23e2e3507" data-type="term">Embodiments</span> of the 
+  <span data-role="tag" data-value="f64afe8d-e48b-1fca-8efe-e6adce8da1df" id="idbb621d16-07c3-220a-ffff-2c0985cb7063" data-type="term">present disclosure</span> are able to achieve 
+  <span data-role="tag" data-value="40b361ad-b642-6c33-fd64-0274245df1cc" id="id42f6b925-8ae4-0bb0-ccbd-446bb518ea01" data-type="term">downshifts</span> more responsively than the 
+  <span data-role="tag" data-value="1257a159-beb4-5ce9-5deb-67193736d8a8" id="idcdd5e98a-0ad8-28f2-e85a-a06202b169da" data-type="term">upshifts</span>.&nbsp;
+</p>
+<p></p>
+<p>One significant aspect of 
+  <span data-role="tag" data-value="58928090-b7d5-6132-38b5-2e1a457ce7fb" id="idbda9b3dc-716c-dc9a-bce8-64b224f9f555" data-type="term">example embodiments</span> of the 
+  <span data-role="tag" data-value="f64afe8d-e48b-1fca-8efe-e6adce8da1df" id="id3d2f29f7-0d2b-09dc-7c33-f99097f722c1" data-type="term">present disclosure</span> includes an 
+  <span data-role="tag" data-value="1028e603-4ed6-1169-8e93-8118ea2537f3" id="id24580417-d092-087e-d253-581d060c2030" data-type="term">algorithm</span> for proactively probing for 
+  <span data-role="tag" data-value="8ce8f3ff-f50a-37a7-6681-9e80a17deac9" id="idcbc9e1a3-2106-f21e-d87e-939b34ff6b10" data-type="term">available network bandwidth</span> by requesting 
+  <span data-role="tag" data-value="27c5c940-576d-283b-afab-0e8142fcdb09" id="id404f8b3d-d573-86ab-3a05-0140f203a822" data-type="term">higher-bitrate video segments</span>. In 
+  <span data-role="tag" data-value="f541d9e7-2070-e0ab-ffbf-889f222657da" id="idf06d1c05-e9a5-df54-f55f-df04dd2a9b19" data-type="term">addition</span>, 
+  <span data-role="tag" data-value="0b51cc5f-8575-1d65-917c-798ceb35d952" id="id92c285ec-3df4-a839-ac51-66a1e5355b61" data-type="term">certain embodiments</span> of the 
+  <span data-role="tag" data-value="f64afe8d-e48b-1fca-8efe-e6adce8da1df" id="id7da97e0b-6cbc-2e6c-b6ed-071c5e7e1af7" data-type="term">present disclosure</span> can apply to both the 
+  <span data-role="tag" data-value="f9e1ab7a-be11-06e8-4a7b-90f8ec154b9b" id="id0413ac6f-727c-7b7d-f1a3-b88d1621fc0f" data-type="term">streaming</span> of 
+  <span data-role="tag" data-value="025a5903-c0c5-2add-5e4d-4198ab4f1f1f" id="id1608e8c6-e39f-d86b-6433-17b157010660" data-type="term">stored and live contents</span>. Additionally, in implementing the 
+  <span data-role="tag" data-value="b82d6c3d-db2f-6087-8492-774ffb2836a7" id="idb4fb9c69-b44d-9152-035a-25b83030e575" data-type="term">probe-adapt principle</span> and the 
+  <span data-role="tag" data-value="381290f9-da8d-f552-bb28-9b803e3fb0d0" id="id0db09287-6e16-543b-7af8-f3bc3680f4e7" data-type="term">fine-tuning</span> of 
+  <span data-role="tag" data-value="ba9e59d2-c6dc-90e4-2461-997c38d1475e" id="id0610252d-0499-7ce9-f8ba-4ce7b364bad1" data-type="term">inter-request intervals</span>, 
+  <span data-role="tag" data-value="0b51cc5f-8575-1d65-917c-798ceb35d952" id="id10682683-9fbb-24a9-2dc5-45d64748cce7" data-type="term">certain embodiments</span> of the 
+  <span data-role="tag" data-value="f64afe8d-e48b-1fca-8efe-e6adce8da1df" id="idc7b00f22-4383-72cf-d1bf-7a7e6f27e5fe" data-type="term">present disclosure</span> can achieve both 
+  <span data-role="tag" data-value="79d96645-be39-5d26-b2b0-11182779c127" id="id5d1ea083-9d36-ec64-d793-50f19ad3a9c4" data-type="term">high video rates</span> and 
+  <span data-role="tag" data-value="a4d2c73d-bc6b-c73e-4a98-79feda29cd1a" id="id1af51f3f-7aab-24c2-e3f6-bd2641b504ba" data-type="term">excellent video rate stability</span>.&nbsp;
+</p>
+<p></p>
+<p>Before detailing these 
+  <span data-role="tag" data-value="184e18cd-e01b-dfad-7114-5b86375f6cca" id="id203f52f9-8dec-ffe0-7704-9443e13fdaf6" data-type="term">activities</span> in more explicit terms, it is important to understand some of the 
+  <span data-role="tag" data-value="e998bed5-927d-69b0-a711-b11e5abd9d30" id="idcbb5f049-fd55-beb0-5457-b4f72528d5b4" data-type="term">bandwidth challenges</span> encountered in a 
+  <span data-role="tag" data-value="f184cf91-ecb1-be9a-8896-8440f59eb802" id="id9d468a0c-4caa-baf3-2f76-51f2f0c954bf" data-type="term">network</span> that includes 
+  <span data-role="tag" data-value="57fdc509-a8b2-c9af-2e96-dedd096f149a" id="id6742b6b3-1ec1-d97d-1a2d-bc4fc90285e8" data-type="term">HAS client(s)</span>. The 
+  <span data-role="tag" data-value="86ffae67-6139-a5b6-f1a6-1745540bc814" id="id029df6ff-6c1a-469a-ec0b-dd0990f76901" data-type="term">following foundational information</span> may be viewed as a 
+  <span data-role="tag" data-value="7de6e65c-73f9-4423-9c42-eb20b88dd894" id="id1bcec88f-03fd-23bd-4dfe-3a2ba5566c45" data-type="term">basis</span> from which the 
+  <span data-role="tag" data-value="f64afe8d-e48b-1fca-8efe-e6adce8da1df" id="id2ea9066b-504a-61ee-9010-6aa08d02d820" data-type="term">present disclosure</span> may be properly explained. 
+  <span data-role="tag" data-value="cccf824b-ac50-06ba-0195-69dddec9e591" id="id87b97c39-7529-d873-cf87-9503faa5fead" data-type="term">Adaptive streaming video systems</span> make use of 
+  <span data-role="tag" data-value="3b101b64-da77-25ef-7f6d-d9b7fa50955c" id="idf7536cf9-4a28-2889-f4f4-114c6aabd724" data-type="term">multi-rate video encoding</span> and an 
+  <span data-role="tag" data-value="c14ca703-75e7-3f5b-8902-831e7cd60542" id="id6a2d447e-b40b-bfd8-baff-4c70dcf4668a" data-type="term">elastic IP transport protocol suite</span> (
+  <span data-role="tag" data-value="fba598e2-8a92-253d-8121-28c13dc5137e" id="ide2490f52-0091-b5ea-b390-56b5325d77ff" data-type="term">typically hypertext transfer protocol/transmission control protocol/Internet protocol</span> (
+  <span data-role="tag" data-value="24fb5a51-5882-a56e-37ab-7e811ebb3173" id="ide99729ac-235e-e2bf-9b04-b89776946922" data-type="term">HTTP/TCP/IP</span>), but could include 
+  <span data-role="tag" data-value="72f60124-1c23-e6c7-9750-9607322e5208" id="id575ae223-f2d7-ae5a-6669-9cd6e98c9755" data-type="term">other transports</span> such as 
+  <span data-role="tag" data-value="56c4deeb-2b27-76b8-5fde-e7e69ac31e52" id="id9bf620c4-72a0-cc33-94c2-c3f67407e1aa" data-type="term">HTTP/SPDY/IP</span>, etc.) to deliver 
+  <span data-role="tag" data-value="57b716f5-65c6-35b9-0614-ac9c294b4f45" id="id1d5280ee-b766-8416-6dc8-6486f45c00d2" data-type="term">high-quality streaming video</span> to a 
+  <span data-role="tag" data-value="2a3a8599-fca2-58de-b823-dd56e16c8499" id="iddfdd2b14-cc49-4cbd-b26c-577cd4f53de2" data-type="term">multitude</span> of 
+  <span data-role="tag" data-value="eb10d61d-e6e1-5d65-2477-1d94274f24a5" id="id9d7b44ff-d69a-bfcc-5ac6-6441fdc862a0" data-type="term">simultaneous users</span> under 
+  <span data-role="tag" data-value="335a2f7f-1f41-fbe9-202c-5359b7169a21" id="idf4e12c8c-41de-8583-d388-fa1c64597db0" data-type="term">widely varying network conditions</span>. These 
+  <span data-role="tag" data-value="48e5b109-b044-1425-b96c-750709175650" id="id0127d03c-30ca-40db-8538-4047ba1ea93a" data-type="term">systems</span> are typically employed for "over-the-top" 
+  <span data-role="tag" data-value="22c6ef88-05b4-ceed-50fb-46fe75709358" id="ide12e8760-b830-d6cc-f7ef-6d527c01226b" data-type="term">video</span> services, which accommodate 
+  <span data-role="tag" data-value="90c36983-d81c-e3b8-7d82-69462d715f10" id="id292423ee-8830-f5d6-e6e4-619a16aa4f97" data-type="term">varying quality</span> of 
+  <span data-role="tag" data-value="01d29048-abbe-6a07-7fa0-fee57443d660" id="id6c0cfe23-db86-a3fb-0784-af8fd2ad0300" data-type="term">service</span> over 
+  <span data-role="tag" data-value="7b8ba869-2e33-8516-de63-65ee83b6f15c" id="id35d385ac-ada7-1ca3-44c9-5e41d25ad4ca" data-type="term">network paths</span>.&nbsp;
+</p>
+<p></p>
+<p>In 
+  <span data-role="tag" data-value="ca918695-e38f-dcb5-d825-8f17c559754f" id="id421c4d9b-0232-0e93-dc44-47863f8b2123" data-type="term">adaptive streaming</span>, the 
+  <span data-role="tag" data-value="166fbf03-9e92-43da-a67f-b49e46ae328e" id="id3ffcf392-65f5-6c7f-6c18-bd2ab863ab2a" data-type="term">source video</span> is encoded such that the 
+  <span data-role="tag" data-value="7cbf5fd6-f4e4-3d79-0e99-cbf6044fab2f" id="ida102bc1a-19cd-393a-5149-8be697c31f0b" data-type="term">same content</span> is available for 
+  <span data-role="tag" data-value="f9e1ab7a-be11-06e8-4a7b-90f8ec154b9b" id="id4e3bdaa4-0e7e-194d-7096-5659679ecfd1" data-type="term">streaming</span> at a 
+  <span data-role="tag" data-value="d01dd8b6-1e92-3145-247e-e9b7493a29da" id="id02aed254-f924-2809-3e94-4305f1f78cec" data-type="term">number</span> of 
+  <span data-role="tag" data-value="a2ba5940-5010-4952-c026-4c16db861c19" id="id8a6480e0-60a1-5b2e-53ac-bef3e247a949" data-type="term">different rates</span> (this can be via either 
+  <span data-role="tag" data-value="e3065b6b-b43e-2827-139e-ad2eb83a6b00" id="ide73eec49-c28a-aed6-dbaa-989a522a3ad5" data-type="term">multi-rate coding</span>, such as H.264 AVC, or layered 
+  <span data-role="tag" data-value="01e146f3-0ecb-912e-7675-6f64a32b7cc3" id="id2cd0a593-43f5-aa8f-8357-db59157bdb61" data-type="term">coding</span>, such as H.264 SVC). The 
+  <span data-role="tag" data-value="22c6ef88-05b4-ceed-50fb-46fe75709358" id="id280dabab-69b6-39af-00ea-22cec6490422" data-type="term">video</span> can be divided into "
+  <span data-role="tag" data-value="525f35ae-2360-3b1c-ec2d-001db779c664" id="id96459f51-97a9-a3c2-02f3-8993d6af8ef1" data-type="term">chunks</span>" of one or more group-of-pictures (GOP) (e.g., typically two (2) to ten (10) 
+  <span data-role="tag" data-value="9676d6b1-7b90-a9f1-8af9-6527426bbaac" id="id4f20e7cb-65f7-c62b-4df1-67aeafafd57f" data-type="term">seconds</span> of 
+  <span data-role="tag" data-value="6f424cc2-5b98-9280-4b61-42343ba2c8d1" id="id59666501-b540-4f29-39ad-d3c9e1200fea" data-type="term">length</span>). 
+  <span data-role="tag" data-value="57fdc509-a8b2-c9af-2e96-dedd096f149a" id="ide001ec77-ba0d-d6d0-3d92-6865d204da11" data-type="term">HAS client(s)</span> can 
+  <span data-role="tag" data-value="990ba308-ca1e-b4b8-5d91-202aa78ddb3d" id="idd5637f49-84fa-994d-ffb9-10a21995d1ca" data-type="term">access</span>
+  <span data-role="tag" data-value="525f35ae-2360-3b1c-ec2d-001db779c664" id="id3a60e4c3-d9c7-b43f-a4eb-90d6fb820c17" data-type="term">chunks</span> stored on 
+  <span data-role="tag" data-value="536142df-f644-00ab-697c-f93cd14c902f" id="id7feef369-f45a-6e0b-4005-424f08ba64d6" data-type="term">servers</span> (or produced in 
+  <span data-role="tag" data-value="cb843eeb-d797-5ed0-8338-c5fde7c7056b" id="id34a5cc67-ee8c-13d5-2855-3d3ae7079144" data-type="term">near real-time</span> for 
+  <span data-role="tag" data-value="0efd269b-dfe3-e5ab-6cb5-d09292dd220a" id="idd00f8c33-d3fd-6fbb-b03f-2101ad532bb6" data-type="term">live streaming</span>) using a 
+  <span data-role="tag" data-value="70d791eb-43ed-0250-2c32-75a2c170eec2" id="idff02081f-9363-4477-b70b-02ff6e0e9c75" data-type="term">web paradigm</span> (e.g., HTTP GET 
+  <span data-role="tag" data-value="7885a7be-0360-4db0-46d4-a6b70603f34a" id="idea87d9d2-34fa-eec4-641d-74747cd08e93" data-type="term">operations</span> over a 
+  <span data-role="tag" data-value="c729a511-2472-b127-ea59-8d9a88dbb53e" id="idbc7d102a-2f03-8428-4d5f-fb619e870adb" data-type="term">TCP/IP transport</span>), and they depend on the 
+  <span data-role="tag" data-value="8c52cbef-142e-67a5-76c8-f3e5147ff0bb" id="idd9a54b36-8728-3b50-fabe-9fdb681f6fc4" data-type="term">reliability</span>, 
+  <span data-role="tag" data-value="739a8ca1-dd9b-6612-2e7c-f99de5c626de" id="id5fd9e144-8ba0-cbb6-3dd6-0c547e3574b9" data-type="term">congestion control</span>, and 
+  <span data-role="tag" data-value="ca323de0-0932-ea13-c263-616cb99e8fc3" id="id6b9d38a2-a878-2fdd-72e6-43ecf2594e06" data-type="term">flow control features</span> of TCP/IP for 
+  <span data-role="tag" data-value="bd0be5cc-a3f7-9f7a-0895-a6fd31df5163" id="id68b452f0-a1c8-e404-0730-9c2a2a7785f1" data-type="term">data delivery</span>. 
+  <span data-role="tag" data-value="57fdc509-a8b2-c9af-2e96-dedd096f149a" id="id5adc036f-bb67-5a69-9e8c-d23be5fe6794" data-type="term">HAS client(s)</span> can indirectly observe the 
+  <span data-role="tag" data-value="bcf14a25-82ff-0a69-889d-c4da9ba26933" id="idb4dfb403-5789-c2d3-9862-b487c909420a" data-type="term">performance</span> of the 
+  <span data-role="tag" data-value="1cbb3eb1-54f1-4813-b624-79b7856153d7" id="id5bb09d2e-e282-5016-65b0-aa258f30bbdd" data-type="term">fetch operations</span> by monitoring the 
+  <span data-role="tag" data-value="cefe61fd-8488-194c-66af-9a253622511c" id="id3be1e7c8-75c2-bfe2-bc28-09bc25238b7b" data-type="term">delivery rate</span> and/or the 
+  <span data-role="tag" data-value="e91027a6-f64a-c380-0d97-fb427dad45b0" id="idffcdb5e9-01b9-bb49-78c8-c346af8694d7" data-type="term">fill level</span> of 
+  <span data-role="tag" data-value="d0551b8e-ee3e-8043-98fd-c92820eb9e7d" id="id8aae9bd3-3fc7-2783-6c2a-269afd581a86" data-type="term">their buffers</span> and, further, either 
+  <span data-role="tag" data-value="629bfb74-b40a-b121-8223-438fb81ffcdb" id="id2759becf-5e48-3015-4c3b-89c981e3973b" data-type="term">upshift</span> to a 
+  <span data-role="tag" data-value="cde113e4-1c25-41dd-af2c-49e7b3e9bf38" id="id840d9037-dc5c-4d12-38d0-3ad176a88d2e" data-type="term">higher encoding rate</span> to obtain 
+  <span data-role="tag" data-value="147a2153-1ff6-7e2e-f464-c9dea93c2a21" id="id3228e47d-64d9-f5a9-4d70-492575002f1c" data-type="term">better quality</span> when 
+  <span data-role="tag" data-value="6b422266-8790-adc3-9ea5-497ea6b584cd" id="ida2e7a800-7fb6-22b4-9f66-8a00fa21f4d4" data-type="term">bandwidth</span> is available, or 
+  <span data-role="tag" data-value="6b491a93-4bfd-b75b-35c4-d4f623496451" id="id0472a7dd-81c6-d83f-f468-a017979c712d" data-type="term">downshift</span> in 
+  <span data-role="tag" data-value="f68ddff1-fb6b-c065-13b5-28a31ec68752" id="id91feff0c-17f9-dbe4-7726-af8403ae040e" data-type="term">order</span> to avoid 
+  <span data-role="tag" data-value="cf094d08-d16f-0e5a-11bc-0f56555ffea8" id="idd81516bb-7d67-dee4-0367-7e2fed10b6c5" data-type="term">buffer underruns</span> and the 
+  <span data-role="tag" data-value="e3b3ef50-6664-01b7-ee71-72859b03acbd" id="id63564c19-1167-89d5-bbca-cdb6757e5969" data-type="term">consequent video stalls</span> when 
+  <span data-role="tag" data-value="bf5e4a38-9963-4edf-1115-2f055955e70e" id="id4c21196b-174f-af01-3c85-f667043dd041" data-type="term">available bandwidth</span> decreases, or stay at the 
+  <span data-role="tag" data-value="92f5aa04-3633-84f1-849b-77f5a6edd066" id="idd71f7ac4-044b-d14d-3cb5-d40aedd8e79a" data-type="term">same rate</span> if 
+  <span data-role="tag" data-value="bf5e4a38-9963-4edf-1115-2f055955e70e" id="id2d7f6d36-c63f-6699-076b-fd59ecae9c71" data-type="term">available bandwidth</span> does not change. Compared to 
+  <span data-role="tag" data-value="3a9bedb3-d720-15bd-a6ec-fd10a48e500e" id="id38c91b69-e21f-4f8d-7892-7ab91bba924c" data-type="term">inelastic systems</span> such as 
+  <span data-role="tag" data-value="43fea17d-6a3b-575f-c2b6-2d91d6a87152" id="idb44f9c59-1101-5b3f-771c-766a82b14423" data-type="term">classic cable TV</span> or 
+  <span data-role="tag" data-value="0e11cfde-7310-d1d6-1e4f-8b048a9e8c6e" id="id040d01ac-6588-1e9a-a1ca-05b47b0977b6" data-type="term">broadcast services</span>, 
+  <span data-role="tag" data-value="19e8ff9c-1633-7f4d-1b20-dd60e542f663" id="id1597bcb7-da69-bb83-d36e-6ab6739a6f3b" data-type="term">adaptive streaming systems</span> use 
+  <span data-role="tag" data-value="28561427-458a-5bd4-0abe-706ca431a2b5" id="id0515ff3f-a254-09de-040a-bebed6bcefc6" data-type="term">significantly larger amounts</span> of 
+  <span data-role="tag" data-value="529c5541-a899-99f3-021b-429815618a21" id="id55f73a5b-7f8b-948f-77f5-e67aa9f4dc8b" data-type="term">buffering</span> to absorb the 
+  <span data-role="tag" data-value="89261662-8be7-82fd-d30d-e9e343078b03" id="id222f517d-975c-6495-0cd0-b024c4756cb2" data-type="term">effects</span> of 
+  <span data-role="tag" data-value="462f89a9-81ef-3365-d642-d3f06f4f586e" id="id3a1ffbf6-fe67-4478-fc73-26363535f967" data-type="term">varying bandwidth</span> from the 
+  <span data-role="tag" data-value="f184cf91-ecb1-be9a-8896-8440f59eb802" id="id2a390289-3eb6-bc0a-670b-f6f76f927ab7" data-type="term">network</span>.&nbsp;
+</p>
+<p></p>
+<p>In a 
+  <span data-role="tag" data-value="bc6fccff-cdaa-7ed5-0508-a68d2103fb23" id="id09d637a9-3287-614a-f7de-887f0d06d24b" data-type="term">typical scenario</span>, 
+  <span data-role="tag" data-value="57fdc509-a8b2-c9af-2e96-dedd096f149a" id="id7f5e0e15-9f29-6bd2-846a-60502750591b" data-type="term">HAS client(s)</span> would fetch 
+  <span data-role="tag" data-value="3e1700ce-f64d-6879-c32a-cc8371f92329" id="iddc90443c-8706-d03d-01fa-74ca104e44eb" data-type="term">content</span> from a 
+  <span data-role="tag" data-value="fba6b59d-1408-e7fc-bef2-4c54b3977f71" id="idc51a9fa4-14d2-c606-163c-5415be142bd3" data-type="term">network server</span> in 
+  <span data-role="tag" data-value="19c156ba-fbb7-bb68-49ca-30310b58a96d" id="idf1cc00a6-3f3a-2584-6e28-9b5dbe080455" data-type="term">segments</span>. Each 
+  <span data-role="tag" data-value="8ad84df8-4cda-0507-7c3b-b3a6353f6ad9" id="id8445bc5f-d25c-41f9-4cf6-150daa1f29f4" data-type="term">segment</span> can contain a 
+  <span data-role="tag" data-value="7773de66-bc5a-ac46-ce1d-b9fc99815b1f" id="id9de0ba3a-c3ca-6575-a7d2-c96d898d2b9f" data-type="term">portion</span> of a 
+  <span data-role="tag" data-value="27717952-3c23-8a58-d421-af53df68de71" id="id9b024bfa-6136-18fb-07a3-eee0d89d01cf" data-type="term">program</span>, typically comprising a 
+  <span data-role="tag" data-value="01848210-56b4-125d-61be-dce1b9cfb399" id="id4769fc14-20db-f532-608a-659c1301dd55" data-type="term">few seconds</span> of 
+  <span data-role="tag" data-value="a1049755-1e20-180a-7bed-d4dd5ab83ec3" id="id9255260e-480f-9cb4-8d3e-8b5d04f5172f" data-type="term">program content</span>. [Note that the 
+  <span data-role="tag" data-value="caa576f2-50a0-a908-60d8-03a1d141889d" id="iddb0cab55-2212-f01b-b160-0f53b4eb9f31" data-type="term">term `segment` and `chunk</span>` are used interchangeably in this 
+  <span data-role="tag" data-value="964b972f-e278-2a19-4e1e-5ffa7b568c20" id="id38ae0d40-f49c-c876-2ec0-99f576a1e471" data-type="term">disclosure</span>.] For each 
+  <span data-role="tag" data-value="7773de66-bc5a-ac46-ce1d-b9fc99815b1f" id="id0747648e-0d97-ec5c-972a-e1c7aa40ab1d" data-type="term">portion</span> of the 
+  <span data-role="tag" data-value="27717952-3c23-8a58-d421-af53df68de71" id="idb698df2d-a834-7c1e-2c24-ce012b7ba6ea" data-type="term">program</span>, there are 
+  <span data-role="tag" data-value="0a119f0d-abec-43de-8a7b-108338c64c87" id="idb1de5c17-4398-39f4-3224-40d14d40a2c7" data-type="term">different segments</span> available with higher and with 
+  <span data-role="tag" data-value="b41b3095-c4dc-4096-d84b-4a571e354655" id="id178e9fd4-0801-55fd-0c02-260962197a78" data-type="term">lower encoding bitrates</span>: 
+  <span data-role="tag" data-value="19c156ba-fbb7-bb68-49ca-30310b58a96d" id="idaaad60cb-5006-b483-f5f5-1b6856875c5e" data-type="term">segments</span> at the 
+  <span data-role="tag" data-value="c1c795b7-de88-e34d-5dd3-0acc944f5a9e" id="id185250dc-e7b4-c534-4f14-cdf0e09ae10d" data-type="term">higher encoding rates</span> require more storage and more transmission 
+  <span data-role="tag" data-value="6b422266-8790-adc3-9ea5-497ea6b584cd" id="id18f97e38-eb56-c51a-b860-b9d0c89485fe" data-type="term">bandwidth</span> than the 
+  <span data-role="tag" data-value="19c156ba-fbb7-bb68-49ca-30310b58a96d" id="id7ca860b9-5496-66c5-4ccd-008e07731c60" data-type="term">segments</span> at the 
+  <span data-role="tag" data-value="d81f39a5-3ba7-befe-f35c-d8e08cacf0b8" id="ide7ef3a54-4afd-cdc8-a40a-9351b0e106c9" data-type="term">lower encoding rates</span>. 
+  <span data-role="tag" data-value="57fdc509-a8b2-c9af-2e96-dedd096f149a" id="id9e74b24b-7765-d837-808b-658fc1fef821" data-type="term">HAS client(s)</span> adapt to 
+  <span data-role="tag" data-value="f71d620b-6fdb-3b88-db6f-8005542d2279" id="id08b95022-519a-0f2a-707d-4f0ad92a6529" data-type="term">changing network conditions</span> by selecting 
+  <span data-role="tag" data-value="e2c8f7b9-e33f-b9ab-ad04-bec9e36869e8" id="id3b5cab94-5bf8-66ea-1934-f68d9ded179d" data-type="term">higher or lower encoding rates</span> for each 
+  <span data-role="tag" data-value="8ad84df8-4cda-0507-7c3b-b3a6353f6ad9" id="id391915fc-4a6f-db41-c5e7-049a287634de" data-type="term">segment</span> requested, requesting 
+  <span data-role="tag" data-value="19c156ba-fbb7-bb68-49ca-30310b58a96d" id="idc46ae785-2648-f234-a6f2-b5f4e9bd58ea" data-type="term">segments</span> from the 
+  <span data-role="tag" data-value="c1c795b7-de88-e34d-5dd3-0acc944f5a9e" id="idbf7888df-be8d-dbfb-c735-49d95dcd438d" data-type="term">higher encoding rates</span> when more 
+  <span data-role="tag" data-value="f184cf91-ecb1-be9a-8896-8440f59eb802" id="id1913f463-c8f0-2a97-85de-2a39e751a300" data-type="term">network</span>
+  <span data-role="tag" data-value="6b422266-8790-adc3-9ea5-497ea6b584cd" id="id6e230e17-96ff-3904-f6ea-beaeffce6a2f" data-type="term">bandwidth</span> is available (and/or the 
+  <span data-role="tag" data-value="959d4018-de4d-0a25-bddb-840ddfb650b6" id="id58888ddc-060e-3e21-8344-58683c34f1b0" data-type="term">client buffer</span> is close to full), and requesting 
+  <span data-role="tag" data-value="19c156ba-fbb7-bb68-49ca-30310b58a96d" id="id4024d196-a0da-1c9a-7068-4a71fd99fb85" data-type="term">segments</span> from the 
+  <span data-role="tag" data-value="d81f39a5-3ba7-befe-f35c-d8e08cacf0b8" id="idd214f1be-936a-40c8-f4f6-80bcede86f28" data-type="term">lower encoding rates</span> when 
+  <span data-role="tag" data-value="9ba2397c-5221-ea83-350b-47059ea692ce" id="idc4715931-bc05-b397-7e33-a7c2dc4811e1" data-type="term">less network bandwidth</span> is available (and/or the 
+  <span data-role="tag" data-value="959d4018-de4d-0a25-bddb-840ddfb650b6" id="id1662af27-b5b8-8742-bda7-833373ba880b" data-type="term">client buffer</span> is close to empty).&nbsp;
+</p>
+<p></p>
+<p>With 
+  <span data-role="tag" data-value="c487bf7c-cbeb-7c21-985c-49a907e6f4f3" id="id89df7982-436c-6329-cda8-a7bdd4cc3da4" data-type="term">most adaptive streaming technologies</span>, it is 
+  <span data-role="tag" data-value="6b4891db-8419-4b26-ab36-c90965933660" id="ida8d7f9dc-1e46-1611-3457-fb4d9837fa37" data-type="term">common practice</span> to have every 
+  <span data-role="tag" data-value="8ad84df8-4cda-0507-7c3b-b3a6353f6ad9" id="idf1978a20-77e3-0953-24ee-064410c211ed" data-type="term">segment</span> represent the same, or very 
+  <span data-role="tag" data-value="2cc0ff53-b1f6-6022-2940-da97588faa55" id="idd81f4880-e1f0-53a9-2283-63bb27379bc1" data-type="term">nearly the same, interval</span> of 
+  <span data-role="tag" data-value="c7a26e5a-1699-597c-cc72-9af237c4fe06" id="id0461ae37-5b23-7fb3-38eb-be158404b822" data-type="term">program time</span>. For 
+  <span data-role="tag" data-value="241ba692-eb2f-bfaa-da7e-9541b86f2186" id="idb561b8a6-1810-a18e-c2c1-44f83aabdcde" data-type="term">example</span>, in the 
+  <span data-role="tag" data-value="cfa6ef5e-c3db-055c-5915-9f04dd0fdf9d" id="idc54fb9bc-14ed-f889-4df6-ee9ebdc632ec" data-type="term">case</span> of one 
+  <span data-role="tag" data-value="f9e1ab7a-be11-06e8-4a7b-90f8ec154b9b" id="iddc3e428d-3851-415a-880b-ae23faf18b23" data-type="term">streaming</span> protocol, it is 
+  <span data-role="tag" data-value="6b4891db-8419-4b26-ab36-c90965933660" id="id61f9d5b7-57b6-4d36-0ade-e0528db3b689" data-type="term">common practice</span> to have every 
+  <span data-role="tag" data-value="8ad84df8-4cda-0507-7c3b-b3a6353f6ad9" id="id4666aa59-5e97-de99-d4c5-7ae52d0131f5" data-type="term">segment</span> (referred to as a 
+  <span data-role="tag" data-value="1a0943c0-eb7d-cc17-3ef1-c4ff4be5fdc8" id="id23699a3d-0cdd-e945-3e39-52c1ae8abc36" data-type="term">`fragment</span>`) of a 
+  <span data-role="tag" data-value="27717952-3c23-8a58-d421-af53df68de71" id="idc4b1d77c-b751-f3b5-ae16-f868dd8fd01f" data-type="term">program</span> represent almost exactly 2 
+  <span data-role="tag" data-value="9676d6b1-7b90-a9f1-8af9-6527426bbaac" id="idb0b57ff3-bc89-dab1-231a-4aee27720e68" data-type="term">seconds</span> worth of 
+  <span data-role="tag" data-value="3e1700ce-f64d-6879-c32a-cc8371f92329" id="id7733fe88-44e3-0495-51bd-c49f581e4b45" data-type="term">content</span> for the 
+  <span data-role="tag" data-value="27717952-3c23-8a58-d421-af53df68de71" id="id2ad34d81-a19c-d436-6482-76ffa4d71a5c" data-type="term">program</span>. With 
+  <span data-role="tag" data-value="8a16e8ea-0517-0a5b-3b01-f56c7609e009" id="ide9abd99a-b01f-bde2-2882-ca4f9be78ff1" data-type="term">HTTP Live Streaming</span> (HLS), it is 
+  <span data-role="tag" data-value="c9dc8723-21fc-f9c0-701a-019b6dbd6da2" id="idf5fdecc6-0e26-3e46-76a9-de7bab533874" data-type="term">quite common practice</span> to have every 
+  <span data-role="tag" data-value="8ad84df8-4cda-0507-7c3b-b3a6353f6ad9" id="id2d10bb98-e0be-de69-0a96-3c5d56256919" data-type="term">segment</span> of a 
+  <span data-role="tag" data-value="27717952-3c23-8a58-d421-af53df68de71" id="id5b91a49f-f702-d832-17f8-0efd9335e03d" data-type="term">program</span> represent almost exactly 10 
+  <span data-role="tag" data-value="9676d6b1-7b90-a9f1-8af9-6527426bbaac" id="ide064538c-cee6-aec5-5ccb-b2a6eebf2a58" data-type="term">seconds</span> worth of 
+  <span data-role="tag" data-value="3e1700ce-f64d-6879-c32a-cc8371f92329" id="id11617da9-a075-7f69-02c9-d6769e0ad5f4" data-type="term">content</span>. Although it is also possible to encode 
+  <span data-role="tag" data-value="19c156ba-fbb7-bb68-49ca-30310b58a96d" id="idd59be817-eea4-d182-6df4-5d8af053953b" data-type="term">segments</span> with 
+  <span data-role="tag" data-value="81df9afc-5f30-ef91-5192-b66f9d401ce9" id="id8b0397b0-35ae-5f46-054f-1550931074ee" data-type="term">different durations</span> (e.g., using 6-second 
+  <span data-role="tag" data-value="19c156ba-fbb7-bb68-49ca-30310b58a96d" id="idc65f1302-1558-593e-e59d-b0f54fef8420" data-type="term">segments</span> for HLS instead of 10-second 
+  <span data-role="tag" data-value="19c156ba-fbb7-bb68-49ca-30310b58a96d" id="idf3fac8b1-4847-012a-3c98-8ec22f8a18a8" data-type="term">segments</span>), even when this is done, it is nevertheless 
+  <span data-role="tag" data-value="6b4891db-8419-4b26-ab36-c90965933660" id="id476c0606-b209-d164-8a9a-23cf4a6d58ac" data-type="term">common practice</span> to keep all 
+  <span data-role="tag" data-value="19c156ba-fbb7-bb68-49ca-30310b58a96d" id="id9f918f51-0514-31fd-7a09-9e2c7e31ec5e" data-type="term">segments</span> within a 
+  <span data-role="tag" data-value="27717952-3c23-8a58-d421-af53df68de71" id="id42fde595-29e9-15b6-b6e4-876386dff901" data-type="term">program</span> at the 
+  <span data-role="tag" data-value="99384495-6684-1810-51f9-24a044a3940f" id="id22e330df-d074-0cef-4f93-951932fcd0fd" data-type="term">same duration</span>.&nbsp;
+</p>

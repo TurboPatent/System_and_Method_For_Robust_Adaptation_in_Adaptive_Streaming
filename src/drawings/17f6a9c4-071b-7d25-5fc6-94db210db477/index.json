@@ -1,0 +1,297 @@
+{
+  "isLandscape": false,
+  "drawingData": {
+    "cells": [
+      {
+        "type": "tp.Element",
+        "shape": "numberLabel",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"2636c7e5-83c8-4453-a1ea-1634b3539ea3\" id=\"id955b6c20-5f54-8b5d-691e-dd2d9e7992fb\" data-type=\"term\">communication system</span></p>",
+        "position": {
+          "x": 580,
+          "y": 19
+        },
+        "size": {
+          "width": 28.346457481384277,
+          "height": 28.346457481384277
+        },
+        "angle": 0,
+        "label": "",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "only",
+        "id": "f644f4a8-33cf-4b5b-90b7-337466a36298",
+        "z": 1,
+        "objectID": "4b09bf94-0ed6-b86a-b419-85f1e2aece55",
+        "number": 0
+      },
+      {
+        "type": "tp.Element",
+        "shape": "rectangle",
+        "labelVAlign": "top",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 84,
+          "y": 156
+        },
+        "size": {
+          "width": 502,
+          "height": 243
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"57fdc509-a8b2-c9af-2e96-dedd096f149a\" id=\"iddce47e60-40f5-82bc-08d0-6e5e90b56a89\" data-type=\"term\">HAS client(s)</span></p>",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position2",
+        "arrowheads": "target",
+        "routing": "curved",
+        "id": "888988dc-4a14-4373-8c9d-8d4fd629f416",
+        "z": 2,
+        "labelLayout": {
+          "labelBoxWidth": 458.12225341796875,
+          "fullString": "HAS CLIENT(S)",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "HAS CLIENT(S)",
+              "width": 87.01310729980469,
+              "x": 185.55457305908203,
+              "y": 0
+            }
+          ],
+          "textWidth": 87.01310729980469,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "c92b902b-7cd0-b569-9208-70cd69cf005a",
+        "number": 12
+      },
+      {
+        "type": "tp.Element",
+        "shape": "rectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 114,
+          "y": 199
+        },
+        "size": {
+          "width": 162,
+          "height": 39
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"1b8173c7-96b3-8e30-3cbd-860d513e5426\" id=\"id7bd3989a-dd41-4a00-2fcd-aed24191a202\" data-type=\"term\">buffer</span></p>",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position10",
+        "arrowheads": "target",
+        "routing": "curved",
+        "id": "efc58232-9507-44e3-b437-f7a8e62737c6",
+        "z": 3,
+        "labelLayout": {
+          "labelBoxWidth": 147.84024047851562,
+          "fullString": "BUFFER",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "BUFFER",
+              "width": 45.87548828125,
+              "x": 50.98237609863281,
+              "y": 7.221479739379884
+            }
+          ],
+          "textWidth": 45.87548828125,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "99dcf006-4515-30eb-f7d1-15e1dbec4ec7",
+        "number": 2
+      },
+      {
+        "type": "tp.Element",
+        "shape": "rectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 114,
+          "y": 257
+        },
+        "size": {
+          "width": 162,
+          "height": 39
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"9d6d17e9-14c5-5a9b-d53b-42c263c8259f\" id=\"idf6aa96ac-3cf3-c25b-aa88-55df35727032\" data-type=\"term\">processor</span></p>",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position10",
+        "arrowheads": "target",
+        "routing": "curved",
+        "id": "eb88ba77-7931-4ec4-2c7d-e845c8ec6278",
+        "z": 4,
+        "labelLayout": {
+          "labelBoxWidth": 147.84024047851562,
+          "fullString": "PROCESSOR",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "PROCESSOR",
+              "width": 72.67189025878906,
+              "x": 37.58417510986328,
+              "y": 7.221479739379884
+            }
+          ],
+          "textWidth": 72.67189025878906,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "6ed563fb-05bb-7c86-ede8-8c5b831d911c",
+        "number": 4
+      },
+      {
+        "type": "tp.Element",
+        "shape": "rectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 115,
+          "y": 319
+        },
+        "size": {
+          "width": 162,
+          "height": 39
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"656a4c11-de35-727e-2216-d4c075920551\" id=\"idc8c0e6a0-d49c-b02c-f221-1ada2768a2af\" data-type=\"term\">memory</span></p>",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position10",
+        "arrowheads": "target",
+        "routing": "curved",
+        "id": "ecacdc42-7723-3b31-fd7b-653da48f0420",
+        "z": 5,
+        "labelLayout": {
+          "labelBoxWidth": 147.84024047851562,
+          "fullString": "MEMORY",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "MEMORY",
+              "width": 56.4810791015625,
+              "x": 45.67958068847656,
+              "y": 7.221479739379884
+            }
+          ],
+          "textWidth": 56.4810791015625,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "0a445167-c60b-dffc-cad0-e54a5a675b9a",
+        "number": 6
+      },
+      {
+        "type": "tp.Element",
+        "shape": "rectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 360,
+          "y": 197.00000000000057
+        },
+        "size": {
+          "width": 197,
+          "height": 64
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"2405e259-d599-bc58-b253-3c8ff041f57e\" id=\"id3e193d8a-b868-9436-4184-b331d3b68107\" data-type=\"term\">rate control function</span></p>",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "arrowheads": "target",
+        "routing": "curved",
+        "id": "bc6c3eb1-569e-8eae-3c87-e0d2c05bf4aa",
+        "z": 6,
+        "labelLayout": {
+          "labelBoxWidth": 179.7810516357422,
+          "fullString": "RATE CONTROL FUNCTION",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "RATE CONTROL FUNCTION",
+              "width": 155.9402313232422,
+              "x": 11.92041015625,
+              "y": 18.58141549987793
+            }
+          ],
+          "textWidth": 155.9402313232422,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "8e71c523-0fc3-e225-b76b-5c0dfd4306d6",
+        "number": 8
+      },
+      {
+        "type": "tp.Element",
+        "shape": "rectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 361,
+          "y": 288
+        },
+        "size": {
+          "width": 197,
+          "height": 64
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"7b04d115-a612-6b3b-d1c6-719c9fb8b4d0\" id=\"ida4de4793-768a-1127-5e18-c18bf15da2fc\" data-type=\"term\">target delay contoller</span></p>",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "arrowheads": "target",
+        "routing": "curved",
+        "id": "18ea03af-266a-6cf4-65cf-445c9b400456",
+        "z": 7,
+        "labelLayout": {
+          "labelBoxWidth": 179.7810516357422,
+          "fullString": "TARGET DELAY CONTOLLER",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "TARGET DELAY CONTOLLER",
+              "width": 157.2067108154297,
+              "x": 11.28717041015625,
+              "y": 18.58141549987793
+            }
+          ],
+          "textWidth": 157.2067108154297,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "2b0dde0c-9f0a-a420-d8f6-8503dd9d91b8",
+        "number": 10
+      }
+    ]
+  }
+}
